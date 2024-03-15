@@ -32,7 +32,7 @@ function Board() {
     function handleClick(){
         console.log("Hello world!");
     }
-    return <button className="square">{value}</button>;
+    return <button className="square" onClick={handleClick}> {value}</button>;
   }
 
 }
