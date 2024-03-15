@@ -1,3 +1,6 @@
+import React, {useState} from "react"
+
+
 export default function TicTacToe() {
   return (
     <>
@@ -28,6 +31,8 @@ function Board() {
   );
 
   function Square({value}) {
+
+    const [value,setValue] = useState(null);
 
     function handleClick(){
         console.log("Hello world!");
