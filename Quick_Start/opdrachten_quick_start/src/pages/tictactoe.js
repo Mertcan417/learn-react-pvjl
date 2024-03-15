@@ -1,11 +1,11 @@
 export default function TicTacToe() {
     return <>
-    <Square></Square>
+    <Board></Board>
     </>
 
 }
 
-function Square() {
+function Board() {
   return (
     <>
       <div className="board-row">
