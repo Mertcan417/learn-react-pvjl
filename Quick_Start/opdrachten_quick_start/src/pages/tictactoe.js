@@ -28,6 +28,10 @@ function Board() {
   );
 
   function Square({value}) {
+
+    function handleClick(){
+        console.log("Hello world!");
+    }
     return <button className="square">{value}</button>;
   }
 
