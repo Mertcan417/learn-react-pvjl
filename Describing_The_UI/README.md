@@ -22,3 +22,12 @@
 - Als je een javascript waarde wilt gebruiken als string, gebruik je brackets {}, dit kun je gebruiken voor zowel in elementen als attributen.
 - Elke javascript expressie kan worden gebruikt tussen de brackets, zelfs het aanroepen van functies.
  - Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruiken van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
+
+ # Passing props to a component
+- React components kunnen met elkaar communiceren door het gebruiken van props.
+- Elke javascript value kan erin worden gezet, denk aan objecten, lijsten en functies.
+- Een prop is informatie die je in een JSX tag kan zetten, denk daarbij aan de width, height, src etc.
+- De child component kan de props weer lezen, door de namen die door de parent component erin is gezet over te nemen in de constructor van de child component. 
+- Props kan je destructueren door namen met {} i.p.v. props te gaan gebruiken.
+- Props kan je default values geven.
+- Props veranderen over tijd en kunnen niet veranderd worden. Het veranderen kan alleen door de state te updaten.
