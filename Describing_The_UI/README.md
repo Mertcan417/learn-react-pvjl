@@ -21,4 +21,4 @@
 - Wanneer je een string attribuut wilt toevoegen in JSX, gebruik je één of dubbele aanhalingstekens.   
 - Als je een javascript waarde wilt gebruiken als string, gebruik je brackets {}, dit kun je gebruiken voor zowel in elementen als attributen.
 - Elke javascript expressie kan worden gebruikt tussen de brackets, zelfs het aanroepen van functies.
- - Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruikem van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
+ - Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruiken van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
