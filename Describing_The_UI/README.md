@@ -16,3 +16,9 @@
 - Volgens JSX mag je maar één parent element returnen met daarin child elementen. (Je kan hiervoor div gebruiken of alleen <> </>)
 - De meeste elementen moeten in camelCase.
 - Je kan een converter gebruiken om HTML naar JSX om te zetten.
+
+# Javascript in JSX with curly braces
+- Wanneer je een string attribuut wilt toevoegen in JSX, gebruik je één of dubbele aanhalingstekens.   
+- Als je een javascript waarde wilt gebruiken als string, gebruik je brackets {}, dit kun je gebruiken voor zowel in elementen als attributen.
+- Elke javascript expressie kan worden gebruikt tussen de brackets, zelfs het aanroepen van functies.
+ - Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruikem van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
