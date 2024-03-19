@@ -21,3 +21,5 @@ Quick_start map
 Files
  - Aantekeningen_Quick_start.md
  - Opdrachten_Quick_start
+
+![alt text](https://pbs.twimg.com/profile_images/1375411064213549058/NMGQqeQs_400x400.png)
