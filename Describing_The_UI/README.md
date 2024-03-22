@@ -31,3 +31,10 @@
 - Props kan je destructueren door namen met {} i.p.v. props te gaan gebruiken.
 - Props kan je default values geven.
 - Props veranderen over tijd en kunnen niet veranderd worden. Het veranderen kan alleen door de state te updaten.
+
+  # Conditional Rendering
+  - Je kan net als JavaScript in React if statements gebruiken die JSX returnt voor een bepaalde conditie.
+  - Je kan gebruik maken van een ternary operator, dit is een andere syntax voor het schrijven van een if en else statement.
+  - Wanneer je alleen JSX wilt returnen als iets alleen true is kan je gebruik maken van de && operator.
+  - Je kan JSX toewijzen aan een variabel.   
+  
