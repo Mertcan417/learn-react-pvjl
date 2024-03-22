@@ -21,9 +21,9 @@
 - Wanneer je een string attribuut wilt toevoegen in JSX, gebruik je één of dubbele aanhalingstekens.   
 - Als je een javascript waarde wilt gebruiken als string, gebruik je brackets {}, dit kun je gebruiken voor zowel in elementen als attributen.
 - Elke javascript expressie kan worden gebruikt tussen de brackets, zelfs het aanroepen van functies.
- - Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruiken van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
+- Wanneer je een object of stijl wilt toevoegen zet je dit in dubbele brackets, bij het gebruiken van een bestaande object hoeft dat niet en kan je de variabel gelijk toewijzen in de bracket. 
 
- # Passing props to a component
+# Passing props to a component
 - React components kunnen met elkaar communiceren door het gebruiken van props.
 - Elke javascript value kan erin worden gezet, denk aan objecten, lijsten en functies.
 - Een prop is informatie die je in een JSX tag kan zetten, denk daarbij aan de width, height, src etc.
@@ -32,9 +32,9 @@
 - Props kan je default values geven.
 - Props veranderen over tijd en kunnen niet veranderd worden. Het veranderen kan alleen door de state te updaten.
 
-  # Conditional Rendering
-  - Je kan net als JavaScript in React if statements gebruiken die JSX returnt voor een bepaalde conditie.
-  - Je kan gebruik maken van een ternary operator, dit is een andere syntax voor het schrijven van een if en else statement.
-  - Wanneer je alleen JSX wilt returnen als iets alleen true is kan je gebruik maken van de && operator.
-  - Je kan JSX toewijzen aan een variabel.   
+# Conditional Rendering
+- Je kan net als JavaScript in React if statements gebruiken die JSX returnt voor een bepaalde conditie.
+- Je kan gebruik maken van een ternary operator, dit is een andere syntax voor het schrijven van een if en else statement.
+- Wanneer je alleen JSX wilt returnen als iets alleen true is kan je gebruik maken van de && operator.
+- Je kan JSX toewijzen aan een variabel.   
   
