@@ -36,5 +36,11 @@
 - Je kan net als JavaScript in React if statements gebruiken die JSX returnt voor een bepaalde conditie.
 - Je kan gebruik maken van een ternary operator, dit is een andere syntax voor het schrijven van een if en else statement.
 - Wanneer je alleen JSX wilt returnen als iets alleen true is kan je gebruik maken van de && operator.
-- Je kan JSX toewijzen aan een variabel.   
+- Je kan JSX toewijzen aan een variabel.
+
+# Rendering Lists
+- Je kan de javascript functies map en filter gebruiken om een lijst van elementen met JSX te genereren. 
+- Elk list element moet zijn eigen key hebben, deze key moet uniek zijn. React kan door keys weten welk list itemen bij welk component hoort. Dit is voornamelijk belangrijk als de list items veranderen door toevoeging of verwijdering.
+- De key kun je genereren of uit een database halen.
+
   
