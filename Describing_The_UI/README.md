@@ -47,5 +47,7 @@
 - Pure functies doen een berekening en meer niet. Het heeft zijn eigen bedoelingen waarvoor het bedoel is, dus een pure functie veranderd geen objecten of variabelen die vooraf al bestonden, voordat deze werden aangeroepen. Deze hebben bij dezelfde input, dezelfde output. En zal het zelfde resultaat weer returnen.
 - Variabelen die je binnen de component aanmaakt mag je veranderen, maar variabelen buiten niet.
 
-
-  
+# Understanding your UI as a tree
+- Een parent component kan bestaan uit meerdere child components. Waarvan elk child component weer een parent component kan zijn voor een child component.
+- Componenten die boven level zitten, hebben invloed op het renderen van de child components.
+- Child components worden het meest gere-rendered.
