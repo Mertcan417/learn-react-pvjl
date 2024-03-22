@@ -43,4 +43,9 @@
 - Elk list element moet zijn eigen key hebben, deze key moet uniek zijn. React kan door keys weten welk list itemen bij welk component hoort. Dit is voornamelijk belangrijk als de list items veranderen door toevoeging of verwijdering.
 - De key kun je genereren of uit een database halen.
 
+# Keeping Components Pure
+- Pure functies doen een berekening en meer niet. Het heeft zijn eigen bedoelingen waarvoor het bedoel is, dus een pure functie veranderd geen objecten of variabelen die vooraf al bestonden, voordat deze werden aangeroepen. Deze hebben bij dezelfde input, dezelfde output. En zal het zelfde resultaat weer returnen.
+- Variabelen die je binnen de component aanmaakt mag je veranderen, maar variabelen buiten niet.
+
+
   
