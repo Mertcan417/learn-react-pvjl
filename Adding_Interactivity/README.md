@@ -7,6 +7,13 @@
 - Met e.preventDefault() kan je onbedoelde browser acties voorkomen.
 
 ## State: A Component's Memory
+- Een component die informatie moet onthouden wordt in React state genoemd.
+- React houdt local variables niet in het geheugen, bij het renderen van een component voor de 2de keer kan dat gemerkt worden.
+- Wijzigingen in local variables zorgen niet voor renders.
+- De useState hook van React zorgt ervoor dat een component een variable kan onthouden ongeacht de render en kan met de setter functie een re-render triggeren.
+- Hooks zijn speciale functies in React en beginnen met de naam "use".
+- State is geisoleerd en is prive. Het veranderen van een state van een component heeft geeft invloed op  andere componenten.
+  
 ## Render and Commit
 ## State as a Snapshot
 ## Queueing a Series of State Updates
