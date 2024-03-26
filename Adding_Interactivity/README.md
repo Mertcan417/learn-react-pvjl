@@ -15,6 +15,17 @@
 - State is geisoleerd en is prive. Het veranderen van een state van een component heeft geeft invloed op  andere componenten.
   
 ## Render and Commit
+#### Triggeren van een render
+- Om een render te triggeren zijn er verschillende redenen, zoals de initiele render van de component of wanneer een component zijn state is veranderd.
+- Updaten van de state zorgt ervoor dat er een render wordt geque-ed.
+
+#### Renderen van een component
+- Nadat er een render is getriggered, roept React je component om te zien wat er op het scherm moet worden weergegeven.
+- Rendering is dat React je componenten aanroept.
+
+#### Committen naar de DOM
+- React zal bij veranderingen de nodige handelingen uitvoeren om de DOM te matchen met de meest recente render.
+- Als er een verschil is tussen de renders, zal React de DOM nodes veranderen.
 ## State as a Snapshot
 ## Queueing a Series of State Updates
 ## Updating Objects in State
