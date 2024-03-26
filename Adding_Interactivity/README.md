@@ -26,7 +26,11 @@
 #### Committen naar de DOM
 - React zal bij veranderingen de nodige handelingen uitvoeren om de DOM te matchen met de meest recente render.
 - Als er een verschil is tussen de renders, zal React de DOM nodes veranderen.
+  
 ## State as a Snapshot
+- State is a snapshot, een state updaten veranderen zorgt niet voor het wijzigen van een state variable. Maar juist voor het triggeren van een re-render.
+- Het wijzigen van state, zorgt ervoor dat de state alleen voor de volgende render wordt veranderd.
+- Een state variable veranderd nooit binnen een render.
 ## Queueing a Series of State Updates
 ## Updating Objects in State
 ## Updating Arrays in State
