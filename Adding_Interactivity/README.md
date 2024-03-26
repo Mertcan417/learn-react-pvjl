@@ -31,7 +31,11 @@
 - State is a snapshot, een state updaten veranderen zorgt niet voor het wijzigen van een state variable. Maar juist voor het triggeren van een re-render.
 - Het wijzigen van state, zorgt ervoor dat de state alleen voor de volgende render wordt veranderd.
 - Een state variable veranderd nooit binnen een render.
+  
 ## Queueing a Series of State Updates
+- React wacht totdat alle code in de event handlers zijn gerund voordat de state wordt geupdate.
+- Als je de state meerdere keren wilt veranderen vlak voor de volgende render, kan je gebruik maken van de setUpdate(state => state) functie.
+  
 ## Updating Objects in State
 ## Updating Arrays in State
 
