@@ -42,4 +42,7 @@
 - Je kan de ... spread syntax gebruiken voor het doorvoeren van wijzigingen.
 
 ## Updating Arrays in State
-
+- Net als objecten hoor je arrays ook immutable te behandelen. Wanneer je ze in de state doorvoert.
+- Gebruik geen muterende array methodes, zoals push of pop. Maar maak een kopie van de array en voer dan nieuwe data toe. Gebruik daarvoor andere methodes, zoals bijvoorbeeld de filter of map methode.
+- Met de spread syntax kan je een array makkelijk kopieëren en nieuwe objecten toevoegen.
+- Voor het verwijderen van een item uit array kun je de filter methode gebruiken.
