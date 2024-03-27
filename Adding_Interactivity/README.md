@@ -38,8 +38,8 @@
   
 ## Updating Objects in State
 - Behandel state in React immutable.
-- Creeër een nieuwe versie van het object als je wijzigingen wilt aanbrengen.
-- je kan de ... spread syntax gebruiken voor het doorvoeren van wijzigingen.
-- 
+- Creeër een nieuwe versie van het object als je wijzigingen wilt aanbrengen, zo kan React weten of een object of Javascript value is veranderd. 
+- Je kan de ... spread syntax gebruiken voor het doorvoeren van wijzigingen.
+
 ## Updating Arrays in State
 
