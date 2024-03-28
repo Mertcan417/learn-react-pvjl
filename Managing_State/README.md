@@ -17,6 +17,10 @@
 - Als je de state voor de child component wilt gebruiken kun je deze in de props zetten.
 
 # Preserving and Resetting State
+- Elke component heeft zijn eigen state, zelfs als je 2x dezelfde component rendert. Elk heeft zijn eigen state.
+- Een component blijft zijn state behouden zolang deze niet van positie veranderd in de UI tree.
+- Wanneer dezelfde component in dezelfde positie, blijft React de state behouden.
+- In sommige gevallen wil je je component de state laten verwijderen, dan kun je keys of een andere plaats voor de component gebruiken.
 
 # Extracting State Logic into a Reducer
 
