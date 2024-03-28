@@ -6,6 +6,12 @@
 
 
 # Choosing the State Structure
+- Groepeer gerelateerde state.
+- Vermijd niet relevante states.
+- Vermijd duplicaties in state.
+- Vermijd diepe geneste state.
+- Als twee state variables altijd samen veranderen, is het een goed idee om deze te vormen tot één state variable.
+
 
 # Preserving and Resetting State
 
