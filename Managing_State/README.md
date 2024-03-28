@@ -14,7 +14,7 @@
 
 # Sharing State Between Components
 - Met het delen van state, kun je het beste dezelfde parent component gebruiken en daar de state beheren.
--Als je de state voor de child component wilt gebruiken kun je deze in de props zetten.
+- Als je de state voor de child component wilt gebruiken kun je deze in de props zetten.
 
 # Preserving and Resetting State
 
