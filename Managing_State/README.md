@@ -23,6 +23,11 @@
 - In sommige gevallen wil je je component de state laten verwijderen, dan kun je keys of een andere plaats voor de component gebruiken.
 
 # Extracting State Logic into a Reducer
+- Components met veel state updates verspreidt over meerdere event handlers kunnen vermoeiend zijn. Het kan vergemakkelijkt worden door het gebruiken van functie, namelijk de reducer.
+- Het gebruiken van reducers is een andere manier om state te managen. I.p.v het setten van state, dispatch je actions. 
+- Het dispatchen van actions is anders dan het setten van state. Bij het setten van state gaat het voornamelijk om wat React moet doen. Maar bij het dispatchen gaat het juist om wat de gebruiker heeft gedaan.
+- Aan het action object die je dispatched gebruik je voornamelijk een type, voor wat er is gebeurd. En nog extra identieke info.
+- In de reducer functie zet je je state logica. Deze heeft twee parameters, een state en een action. De functie returnt de nieuwe state voor React.
 
 # Passing Data Deeply with Context
 
