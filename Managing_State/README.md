@@ -30,5 +30,10 @@
 - In de reducer functie zet je je state logica. Deze heeft twee parameters, een state en een action. De functie returnt de nieuwe state voor React.
 
 # Passing Data Deeply with Context
+- Context maakt info beschikbaar vanuit de parent component aan de child componenten. I.p.v elke keer via props info geven aan components.
+- Eerst hoor je een context te maken, Daarna gebruik je de context van de component die de data nodig heeft. Vervolgens zet je de context bij de component die de data aanduidt.
+- Je gebruikt createContext(value) functie, als parameter kan je alles erin zetten wat je wilt objecten, etc.
+- Vervolgens gebruik je de use context hook en je context die je hebt aangemaakt.
+- Met Context kun je componenten schrijven die “zich aanpassen”, afhankelijk waar in welke context ze worden weergegeven.
 
 # Scaling Up with Reducer and Context
