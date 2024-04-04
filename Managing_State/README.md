@@ -37,3 +37,5 @@
 - Met Context kun je componenten schrijven die “zich aanpassen”, afhankelijk waar in welke context ze worden weergegeven.
 
 # Scaling Up with Reducer and Context
+- Je kan een reducer met de context gebruiken om een component state te lezen en te wijzigen, i.p.v dit elke keer via props door te geven.
+- Maak 2 contexts, een state context en een context voor dispatch de functies.
