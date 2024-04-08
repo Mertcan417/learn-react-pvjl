@@ -6,3 +6,7 @@
 
 # Manipulating the DOM with Refs
 - Om een DOM node te bemachtigen gebruik je refs.
+
+# Synchronizing with Effects
+- Effects laten je code runnen na het renderen, zodat je je component kan synchroniseren met een systeem buiten React.
+- Effects worden gerund na de commit fase.
